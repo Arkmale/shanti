@@ -3,7 +3,7 @@
 <head>
 	<!-- Document Title
 	============================================= -->
-	<title><?php wp_title('|', true, 'right'); ?> и области</title>
+	<title><?php wp_title('|', true, 'right'); ?></title>
 	<meta name="description" content="<?php echo wp_strip_all_tags( get_the_excerpt(), true ); ?> <?php the_excerpt(); bloginfo('description');?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
